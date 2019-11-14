@@ -1,0 +1,17 @@
+{
+  "version": "19.09",
+  "nixpkgs": {
+    "url": "https://github.com/nixos/nixpkgs-channels.git",
+    "rev": "cb2cdab71368885ce6408b3ad7cfcf544a8c38a0",
+    "date": "2019-11-13T08:06:47+01:00",
+    "sha256": "02vyx2ccrfqxz7ndlfww1ivqbq1qlmglq5690r6nvmylcm976dqw",
+    "fetchSubmodules": false
+  },
+  "NixOS-QChem": {
+    "url": "https://github.com/markuskowa/NixOS-QChem.git",
+    "rev": "fa7f31e80c40e6d6e008f72a2479028629f264ba",
+    "date": "2019-11-13T10:17:47+01:00",
+    "sha256": "0x70irbn3k4h3ymcrlc8gip7y35ybsdr1qqdf0hv6rrivh9lrxsz",
+    "fetchSubmodules": false
+  }
+}
