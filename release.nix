@@ -33,8 +33,7 @@ in with buildPkgs; rec {
       cp -r ${nixpkgsSource.outPath}/* $out/nixpkgs
       cp -r ${overlaySource.outPath}/* $out/NixOS-QChem
 
-      cp ${src}/nixpkgs-version.json $out/
-      cp ${src}/NixOS-QChem-version.json $out/
+      cp ${src}/version.json $out/
 
       cp ${src}/channel.nix $out/default.nix
 
@@ -46,8 +45,8 @@ in with buildPkgs; rec {
     inherit version;
   } ''
 
-      revNix=`echo ${pinNixpkgs.rev} | cut -c1-6`
-      revQC=`echo ${pinNixOS-QChem.rev} | cut -c1-6`
+      revNix=`echo ${pin.nixpkgs.rev} | cut -c1-6`
+      revQC=`echo ${pin.nixOS-QChem.rev} | cut -c1-6`
       release="${name}-${version}-$revNix-$revQC"
       mkdir -p $release $out
 
