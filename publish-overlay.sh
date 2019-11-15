@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]; then
   echo
-  echo "Build and link channel locally"
+  echo "Build and link nixpkgs channel + overlay locally"
   echo
   echo "Usage `basename $0` <target location>"
   echo
