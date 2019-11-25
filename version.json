@@ -9,9 +9,9 @@
   },
   "NixOS-QChem": {
     "url": "https://github.com/markuskowa/NixOS-QChem.git",
-    "rev": "2f4691f501d7043c86b5dd69a9b2b2bb58f550ae",
-    "date": "2019-11-15T01:01:46+01:00",
-    "sha256": "00l8qrc7k3gc4vv9yw70m6mb945scvd49rjvxhyvdd50yiif4qx5",
+    "rev": "66c1d33718957eb585d884d9ed16c28f7ebcc834",
+    "date": "2019-11-25T14:36:49+01:00",
+    "sha256": "1xrsxzk1f3ysdfnsyizf5h4k0qggf0pp226ynw3hayymsv8nvxdf",
     "fetchSubmodules": false
   }
 }
